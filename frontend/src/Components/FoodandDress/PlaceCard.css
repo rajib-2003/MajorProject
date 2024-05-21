@@ -1,0 +1,32 @@
+.place-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 16px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .place-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .place-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .place-details {
+    margin-top: 16px;
+  }
+  
+  .place-details p {
+    margin-bottom: 8px;
+  }
+  
+  .btn_cart {
+    margin-top: 16px;
+    text-align: center;
+  }
+  

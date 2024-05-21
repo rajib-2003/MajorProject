@@ -1,0 +1,83 @@
+/* Container for the page */
+.place {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    width: 100vw;
+  }
+  
+  .place h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  /* Container for the place cards */
+  .place-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Individual place card styling */
+  .place-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    transition: transform 0.3s;
+  }
+  
+  .place-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .place-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .place-card-details {
+    padding: 15px;
+  }
+  
+  .place-card-details h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .place-card-details p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .place-card {
+      max-width: 100%;
+      margin: 10px 0;
+    }
+  
+    .place-card-details h3 {
+      font-size: 1.2em;
+    }
+  
+    .place-card-details p {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .place-card-details h3 {
+      font-size: 1em;
+    }
+  
+    .place-card-details p {
+      font-size: 0.8em;
+    }
+  }
+  

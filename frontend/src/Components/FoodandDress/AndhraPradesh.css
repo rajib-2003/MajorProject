@@ -1,0 +1,115 @@
+/* Main container */
+.main {
+  width: 100vw;
+  height: max-content;
+  padding: 20px;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+/* Home image section */
+.home_image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+/* Culture page container */
+.culture-page {
+  margin: 20px auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Art section */
+.art-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.art-section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.art-section .details {
+  flex: 1;
+  padding: 20px;
+}
+
+.art-section .details h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.art-section .details p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #666;
+}
+
+.art-section .image {
+  flex: 1;
+}
+
+.art-section .image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 0 0 10px;
+}
+
+.art-section:nth-child(even) .image img {
+  border-radius: 0 10px 10px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .art-section {
+    flex-direction: column;
+  }
+
+  .art-section:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .art-section .image img {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .art-section:nth-child(even) .image img {
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  .art-section .details h2 {
+    font-size: 1.5em;
+  }
+
+  .art-section .details p {
+    font-size: 0.9em;
+  }
+}

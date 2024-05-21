@@ -1,0 +1,73 @@
+.dress-card-page {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  width:100vw ;
+}
+
+.men-section, .women-section {
+  margin: 40px 0;
+}
+
+.dress-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.dress-card-page {
+  text-align: center;
+}
+
+.dress-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dress-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.dress-card:hover {
+  transform: scale(1.05);
+}
+
+.dress-card img {
+  width: 100%;
+  height: auto;
+}
+
+.dress-details,
+.dress-cart {
+  margin-top: 16px;
+}
+
+.dress-cart button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dress-cart button:hover {
+  background-color: #45a049;
+}
+
+.dress-cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dress-cart ul li {
+  margin-bottom: 8px;
+}

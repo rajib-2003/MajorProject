@@ -1,0 +1,141 @@
+.main{
+    height: 100vh;
+}
+.container{
+    justify-content: center ;
+    margin-left:'auto';
+    
+    
+
+    
+}
+.form1{
+   box-shadow: rgba(0,0,0,0.24)0px 3px 8px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 0;
+   padding-right: 0;
+   text-align: center !important;
+   width: 450px !important;
+   height: 475px;
+   margin: auto;
+   background-color:#cde8e5 ;
+
+
+   
+   
+   
+    
+}
+.form2{
+    box-shadow: rgba(0,0,0,0.24)0px 3px 8px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center !important;
+    width: 450px !important;
+    height: 475px;
+    margin: auto;
+    background-color:#cde8e5 ;
+    margin-top: 50px;
+    margin-top: 100px;
+ 
+    
+    
+    
+     
+ }
+.form-control{
+    width: 300px!important;
+    margin: auto;
+    text-align: center;
+    
+    
+    
+    
+}
+.signbtn{
+    height: 40px;
+    width: 220px;
+}
+
+
+  
+
+  .modal-header {
+    padding: 25px;
+  
+  }
+  
+  .modal-body {
+    padding: 0px;
+  }
+  
+  .modal-footer {
+    padding: 15px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .close {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 0;
+    height: 40px;
+    width: 30px;
+    color:red
+  }
+  /* register.css */
+.modal.show {
+  display: block;
+  overflow-y: auto;
+}
+
+.modal-dialog {
+  width: 100%; /* Increase width */
+  height: 80vh; /* Increase height and ensure it respects the viewport height */
+  
+}
+
+.modal-content {
+   /* Control overflow within the modal content */
+  max-height: 100vh; /* Ensure content does not exceed the viewport height */
+}
+
+.modal-header .close {
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+}
+
+.form1 {
+  padding: 10px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.signbtn {
+  width: 100%;
+  padding: 10px;
+
+}
+
+p {
+  text-align: center;
+}
+
+  

@@ -1,0 +1,30 @@
+nav {
+    background-color: #333;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  nav ul li.active {
+    background-color: #555;
+  }
+  
+  /* Media Query for Responsive Navigation */
+  @media screen and (max-width: 600px) {
+    nav ul li {
+      display: block;
+      width: 100%;
+    }
+  }
+  

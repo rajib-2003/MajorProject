@@ -1,0 +1,52 @@
+.card--container{
+    display: flex;
+    gap:20 px;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+.card{
+    flex: 1;
+    width: 10rem;
+    background: #1dd070;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+    margin: 10px;
+    transition: 0.5s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+    
+}
+.card--cover{
+ background: #fff;
+ font-size: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 20px;
+ border-radius: 20px;
+ color: #050505;
+}
+.card-title{
+    background: #ffffffc0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+   
+    border-radius: 10px;
+}
+.add-bg{
+    background-color: aquamarine;
+}
+@media screen and (max-width: 430px){
+   .update{
+    margin: 0 !important;
+   }
+}

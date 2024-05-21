@@ -1,0 +1,27 @@
+/* auth.css */
+.auth-wrapper {
+    background-image: linear-gradient(135deg, #3C8CE7 10%, #00EAFF 100%);
+    margin: 0 auto;
+   
+  }
+  
+  
+  .auth-inner {
+    width: 100%;
+    max-width: 450px;
+    overflow-x: hidden ; 
+    overflow-y: hidden ;/* Control overflow */
+    height: auto; /* Adjust height as needed */
+    background-image: linear-gradient(135deg, #a8edea 10%, #fed6e3 100%);
+    
+  }
+  
+  .custom-btn {
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .custom-btn:hover {
+    background-color: #080a0c;
+    border-color: #0d1013;
+  }
+  

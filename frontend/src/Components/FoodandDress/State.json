@@ -1,0 +1,428 @@
+{
+  "states": [
+    {
+      "name": "Andhra Pradesh",
+      "description": "Andhra Pradesh, located in southern India, is known for its rich cultural heritage, historic temples, and spicy cuisine.",
+      "dress": [
+        {
+          "name": "Pochampally Saree",
+          "description": "Traditional handwoven sarees featuring intricate geometric designs, popular for special occasions and festivals."
+        },
+        {
+          "name": "Dhoti and Kurta",
+          "description": "Traditional attire for men, consisting of a long, loose-fitting shirt (kurta) paired with a wrapped garment (dhoti), often worn during ceremonies and rituals."
+        },
+        {
+          "name": "Pattu Langa",
+          "description": "Traditional silk skirt worn by women, often adorned with intricate embroidery and embellishments, commonly seen during weddings and celebrations."
+        },
+        {
+          "name": "Banarasi Silk Saree",
+          "description": "Luxurious silk sarees from the city of Banaras (Varanasi), featuring intricate gold and silver brocade work, highly prized for weddings and special occasions."
+        },
+        {
+          "name": "Sherwani",
+          "description": "Regal attire for men, a long coat-like garment with detailed embroidery and embellishments, often worn by grooms and for formal events."
+        },
+        {
+          "name": "Lehenga Choli",
+          "description": "Traditional attire for women, consisting of a long skirt (lehenga) paired with a blouse (choli) and dupatta, worn for weddings and festivals."
+        },
+        {
+          "name": "Kalamkari Dress",
+          "description": "Hand-painted or block-printed cotton dresses featuring intricate motifs and designs, reflecting the rich cultural heritage of Andhra Pradesh."
+        },
+        {
+          "name": "Khadi Kurta",
+          "description": "Simple and elegant attire made from khadi fabric, a handspun and handwoven cloth, popular for its comfort and versatility."
+        }
+      ],
+      "food": [
+        {
+          "name": "Hyderabadi Biryani",
+          "description": "A fragrant and flavorful rice dish made with basmati rice, tender meat (chicken, mutton, or beef), and aromatic spices, a specialty of Hyderabad."
+        },
+        {
+          "name": "Dosa",
+          "description": "A popular South Indian dish made from fermented rice and lentil batter, cooked into thin, crispy crepes, often served with chutney and sambar."
+        },
+        {
+          "name": "Pesarattu",
+          "description": "A nutritious and savory crepe made from green gram (moong dal) batter, typically served with upma and ginger chutney, a specialty of Andhra cuisine."
+        },
+        {
+          "name": "Gongura Pachadi",
+          "description": "A tangy chutney made from sorrel leaves (gongura), tempered with mustard seeds, red chilies, and garlic, a staple accompaniment in Andhra meals."
+        },
+        {
+          "name": "Idli",
+          "description": "Soft and fluffy steamed rice cakes, made from fermented rice and lentil batter, served with sambar and coconut chutney, a popular breakfast option."
+        },
+        {
+          "name": "Pulihora",
+          "description": "A tangy and spicy rice dish made with tamarind paste, rice, and an aromatic blend of spices, a common offering during festivals and celebrations."
+        },
+        {
+          "name": "Mirchi Bajji",
+          "description": "Spicy and crispy deep-fried fritters made from large green chilies stuffed with a tangy masala filling, a popular street food snack in Andhra Pradesh."
+        },
+        {
+          "name": "Pootharekulu",
+          "description": "A traditional Andhra sweet delicacy made from wafer-thin layers of rice starch, jaggery, and ghee, often served as a dessert during festivals."
+        }
+      ],
+      "place": [
+        {
+          "name": "Tirupati Temple",
+          "description": "One of the most visited Hindu pilgrimage sites in the world, dedicated to Lord Venkateswara, located in the hill town of Tirumala, known for its elaborate rituals and festivals."
+        },
+        {
+          "name": "Charminar",
+          "description": "An iconic monument and mosque located in the heart of Hyderabad, built in 1591 by Sultan Muhammad Quli Qutb Shah, known for its grandeur and architectural splendor."
+        },
+        {
+          "name": "Araku Valley",
+          "description": "A picturesque hill station nestled in the Eastern Ghats of Andhra Pradesh, known for its lush coffee plantations, tribal culture, and scenic landscapes."
+        },
+        {
+          "name": "Borra Caves",
+          "description": "Natural limestone caves located in the Ananthagiri Hills of the Eastern Ghats, renowned for their unique formations, stalactites, and stalagmites, attracting tourists and spelunkers."
+        },
+        {
+          "name": "Vizag Beach",
+          "description": "A popular beach destination in Visakhapatnam, known for its golden sands, clear waters, and scenic beauty, offering water sports, beachside cafes, and sunset views."
+        },
+        {
+          "name": "Papikondalu",
+          "description": "A scenic river gorge formed by the Godavari River in the Eastern Ghats, known for its breathtaking landscapes, lush forests, and boat cruises along the river."
+        },
+        {
+          "name": "Belum Caves",
+          "description": "The second-longest caves in India, located in the Kurnool district of Andhra Pradesh, known for their unique formations, stalactites, stalagmites, and underground chambers."
+        },
+        {
+          "name": "Kondapalli Fort",
+          "description": "A historic fort located near Vijayawada, known for its impressive architecture, intricate carvings, and panoramic views of the surrounding countryside."
+        }
+      ]
+    },
+    {
+      "name": "Kerala",
+      "description": "Kerala, located in the southwestern region of India, is renowned for its serene backwaters, lush greenery, and vibrant culture.",
+      "dress": [
+        {
+          "name": "Kasavu Saree",
+          "description": "Traditional handwoven sarees with gold borders, commonly worn by women during festivals and special occasions."
+        },
+        {
+          "name": "Mundu",
+          "description": "Traditional attire for men, a plain white cotton garment worn as a dhoti, often paired with a shirt, especially during formal events and ceremonies."
+        },
+        {
+          "name": "Set Mundu",
+          "description": "A variant of the mundu, a two-piece attire consisting of a plain white cotton cloth wrapped around the waist (mundu) and a matching shawl draped over the shoulder, commonly worn by women."
+        },
+        {
+          "name": "Kerala Saree",
+          "description": "Sarees with vibrant colors and intricate designs, reflecting the cultural heritage of Kerala, often worn by women during weddings and celebrations."
+        },
+        {
+          "name": "Kerala Christian Wedding Dress",
+          "description": "Traditional attire worn by Christian brides in Kerala, typically a white gown embellished with intricate lacework and beadwork, symbolizing purity and elegance."
+        },
+        {
+          "name": "Kerala Muslim Wedding Dress",
+          "description": "Traditional attire worn by Muslim brides in Kerala, typically a heavily embroidered saree or salwar kameez with gold jewelry, reflecting the rich cultural heritage of Kerala."
+        },
+        {
+          "name": "Kerala Temple Dress",
+          "description": "Attire worn by devotees while visiting temples in Kerala, often consisting of simple white cotton garments to signify purity and devotion."
+        },
+        {
+          "name": "Kerala Onam Dress",
+          "description": "Traditional attire worn during the festival of Onam, usually a set mundu paired with a colorful blouse or kurta, adorned with floral motifs and jewelry."
+        }
+      ],
+      "food": [
+        {
+          "name": "Appam with Stew",
+          "description": "A traditional Kerala breakfast dish consisting of soft and fluffy rice pancakes (appam) served with a coconut milk-based stew made with vegetables, chicken, or fish."
+        },
+        {
+          "name": "Fish Curry",
+          "description": "A spicy and tangy curry made with fresh fish, coconut milk, and a blend of aromatic spices, a staple dish in Kerala cuisine, often served with steamed rice or appam."
+        },
+        {
+          "name": "Puttu and Kadala Curry",
+          "description": "A popular Kerala breakfast combination featuring steamed cylinders of ground rice and grated coconut (puttu) served with a spicy and flavorful black chickpea curry (kadala curry)."
+        },
+        {
+          "name": "Thalassery Biryani",
+          "description": "A fragrant and flavorful rice dish layered with marinated meat (chicken, mutton, or beef), aromatic spices, and fried onions, originating from the town of Thalassery in Kerala."
+        },
+        {
+          "name": "Kerala Sadya",
+          "description": "A traditional feast served on banana leaves, consisting of a variety of vegetarian dishes such as sambar, avial, thoran, pachadi, and payasam, typically served during festivals and special occasions."
+        },
+        {
+          "name": "Karimeen Pollichathu",
+          "description": "A delicacy from Kerala cuisine, featuring marinated pearl spot fish (karimeen) wrapped in banana leaves and grilled or roasted with a blend of spices and coconut."
+        },
+        {
+          "name": "Kerala Parotta with Chicken Curry",
+          "description": "A popular street food dish in Kerala, consisting of flaky and layered parotta bread served with spicy and flavorful chicken curry, a favorite among locals and tourists alike."
+        },
+        {
+          "name": "Payasam",
+          "description": "A traditional Kerala dessert made with milk, rice, sugar, and flavored with cardamom, saffron, and nuts, served warm or cold during festivals and celebrations."
+        }
+      ],
+      "place": [
+        {
+          "name": "Backwaters of Kerala",
+          "description": "A network of interconnected canals, lakes, and lagoons situated along the coast of Kerala, offering serene boat rides, lush greenery, and picturesque landscapes."
+        },
+        {
+          "name": "Munnar",
+          "description": "A popular hill station in Kerala, known for its sprawling tea plantations, misty mountains, and cool climate, offering opportunities for trekking, camping, and wildlife spotting."
+        },
+        {
+          "name": "Alappuzha (Alleppey)",
+          "description": "Famous for its tranquil backwaters, houseboat cruises, and annual Nehru Trophy Boat Race, Alappuzha is often referred to as the 'Venice of the East' and is a major tourist destination in Kerala."
+        },
+        {
+          "name": "Fort Kochi",
+          "description": "A historic seaside town in Kerala, known for its colonial architecture, ancient churches, Chinese fishing nets, and vibrant art scene, reflecting a blend of Indian, Portuguese, Dutch, and British influences."
+        },
+        {
+          "name": "Periyar Wildlife Sanctuary",
+          "description": "Located in the Western Ghats of Kerala, the Periyar Wildlife Sanctuary is home to diverse flora and fauna, including elephants, tigers, leopards, and rare bird species, offering opportunities for wildlife safaris and nature walks."
+        },
+        {
+          "name": "Kumarakom",
+          "description": "A scenic village located on the banks of Vembanad Lake in Kerala, known for its backwater tourism, bird watching, and Ayurvedic treatments, offering a tranquil retreat amidst nature."
+        },
+        {
+          "name": "Wayanad",
+          "description": "A picturesque district in Kerala, known for its lush greenery, mist-covered mountains, and rich biodiversity, offering opportunities for trekking, wildlife spotting, and exploring tribal culture."
+        },
+        {
+          "name": "Kovalam Beach",
+          "description": "A popular beach destination in Kerala, known for its crescent-shaped beaches, shallow waters, and pristine sands, offering water sports, beachside resorts, and Ayurvedic treatments."
+        }
+      ]
+    },
+    {
+      "name": "Rajasthan",
+      "description": "Rajasthan, located in northwestern India, is renowned for its rich history, majestic forts, and vibrant culture.",
+      "dress": [
+        {
+          "name": "Lehenga Choli",
+          "description": "Traditional attire for women, consisting of a long skirt (lehenga) paired with a blouse (choli) and dupatta, often embellished with intricate embroidery, mirror work, and beads."
+        },
+        {
+          "name": "Bandhani Saree",
+          "description": "Sarees featuring tie-and-dye patterns, created by plucking the fabric with fingernails into small bindings, popular for weddings and festive occasions in Rajasthan."
+        },
+        {
+          "name": "Sherwani",
+          "description": "Regal attire for men, a long coat-like garment adorned with intricate embroidery, often worn by grooms and for formal events, symbolizing elegance and tradition."
+        },
+        {
+          "name": "Pagdi (Turban)",
+          "description": "A traditional headgear worn by men, made from cloth wound around the head, often brightly colored and intricately tied, symbolizing pride, honor, and respect in Rajasthani culture."
+        },
+        {
+          "name": "Angrakha",
+          "description": "A traditional Rajasthani garment for men, characterized by its cross-wrap style with tie-up details, often worn with dhoti or churidar, representing royal elegance and sophistication."
+        },
+        {
+          "name": "Ghagra Choli",
+          "description": "Traditional attire for women, consisting of a flared skirt (ghagra) paired with a fitted blouse (choli) and dupatta, often embellished with mirror work, beads, and embroidery, worn for festivals and weddings."
+        },
+        {
+          "name": "Jodhpuri Suit",
+          "description": "A formal attire for men, consisting of a tailored jacket with a Nehru collar, worn with trousers, often adorned with intricate embroidery and worn for weddings and special occasions."
+        },
+        {
+          "name": "Pachewara",
+          "description": "Traditional attire for women, consisting of a colorful skirt paired with a short blouse and a headscarf, often worn by the Kalbelia community of Rajasthan during dance performances."
+        }
+      ],
+      "food": [
+        {
+          "name": "Dal Baati Churma",
+          "description": "A traditional Rajasthani dish consisting of baked wheat balls (baati) served with lentil curry (dal) and a sweet crumbled wheat dessert (churma), a hearty and flavorful meal."
+        },
+        {
+          "name": "Laal Maas",
+          "description": "A fiery and flavorful meat curry made with mutton or lamb cooked in a spicy red chili-based gravy, a signature dish of Rajasthan, often paired with bajra roti or rice."
+        },
+        {
+          "name": "Gatte ki Sabzi",
+          "description": "A Rajasthani delicacy made with gram flour (besan) dumplings cooked in a yogurt-based gravy with spices, garnished with coriander leaves, a popular vegetarian dish in Rajasthan."
+        },
+        {
+          "name": "Ker Sangri",
+          "description": "A traditional Rajasthani dish made with dried desert beans (sangri) and berries (ker), cooked with spices and often served as a side dish with bread or rice, known for its tangy and spicy flavor."
+        },
+        {
+          "name": "Rajasthani Thali",
+          "description": "A platter featuring a variety of Rajasthani dishes such as dal baati churma, gatte ki sabzi, ker sangri, papad, and a selection of breads and desserts, offering a taste of the diverse culinary heritage of Rajasthan."
+        },
+        {
+          "name": "Mirchi Vada",
+          "description": "Spicy green chilies stuffed with a tangy potato filling, coated with gram flour batter and deep-fried until golden and crispy, a popular street food snack in Rajasthan."
+        },
+        {
+          "name": "Kachori",
+          "description": "Deep-fried pastry filled with a spicy mixture of lentils, spices, and sometimes potatoes, served with tangy tamarind chutney and spicy green chutney, a popular breakfast or snack item in Rajasthan."
+        },
+        {
+          "name": "Ghevar",
+          "description": "A traditional Rajasthani sweet dish made with flour, sugar syrup, and ghee, often garnished with almonds, pistachios, and edible silver foil, enjoyed during festivals and special occasions."
+        }
+      ],
+      "place": [
+        {
+          "name": "Jaipur",
+          "description": "The capital city of Rajasthan, known as the 'Pink City' for its distinctive pink-colored buildings, famous for its majestic forts, palaces, and vibrant bazaars."
+        },
+        {
+          "name": "Jaisalmer",
+          "description": "A picturesque city in the heart of the Thar Desert, known for its golden sandstone architecture, magnificent forts, and camel safaris, offering a glimpse into Rajasthan's rich history and culture."
+        },
+        {
+          "name": "Udaipur",
+          "description": "The 'City of Lakes' in Rajasthan, renowned for its beautiful lakes, palaces, and romantic ambiance, often referred to as the 'Venice of the East', a popular destination for weddings and honeymoons."
+        },
+        {
+          "name": "Jodhpur",
+          "description": "Known as the 'Blue City' for its blue-painted houses, Jodhpur is famous for its majestic Mehrangarh Fort, vibrant bazaars, and traditional Rajasthani hospitality."
+        },
+        {
+          "name": "Pushkar",
+          "description": "A sacred town in Rajasthan, known for its Brahma Temple, serene Pushkar Lake, and annual camel fair, attracting pilgrims, tourists, and traders from all over the world."
+        },
+        {
+          "name": "Ranthambore National Park",
+          "description": "One of the largest national parks in northern India, known for its population of Bengal tigers, as well as a variety of other wildlife species, offering thrilling wildlife safaris and nature walks."
+        },
+        {
+          "name": "Chittorgarh Fort",
+          "description": "One of the largest forts in India, perched atop a hill overlooking the plains of Rajasthan, known for its impressive architecture, historical significance, and breathtaking views."
+        },
+        {
+          "name": "Mount Abu",
+          "description": "The only hill station in Rajasthan, nestled in the Aravalli Range, known for its cool climate, scenic landscapes, and Dilwara Temples, offering a tranquil retreat amidst nature."
+        }
+      ]
+    },
+    {
+      "name": "Tamil Nadu",
+      "description": "Tamil Nadu, located in southern India, is known for its ancient temples, classical dance forms, and rich cultural heritage.",
+      "dress": [
+        {
+          "name": "Kanjivaram Saree",
+          "description": "Luxurious silk sarees from the town of Kanchipuram, known for their rich colors, intricate designs, and gold zari work, highly prized for weddings and special occasions."
+        },
+        {
+          "name": "Dhoti",
+          "description": "Traditional garment for men, consisting of a rectangular piece of cloth wrapped around the waist and legs, often paired with a shirt (angavastram) or kurta, worn for rituals and ceremonies."
+        },
+        {
+          "name": "Pattu Pavadai",
+          "description": "Traditional attire for girls, consisting of a silk skirt (pattu pavadai) paired with a blouse, often adorned with gold embellishments and worn during festivals and celebrations."
+        },
+        {
+          "name": "Salwar Kameez",
+          "description": "Popular attire for women, consisting of a long tunic (kameez) paired with loose-fitting trousers (salwar) and a dupatta, available in a variety of fabrics and designs, suitable for both casual and formal occasions."
+        },
+        {
+          "name": "Madisar Saree",
+          "description": "Traditional saree worn by married women, draped in the 'Madisar' style, characterized by the pleats arranged in a particular manner, symbolizing marital status and cultural identity."
+        },
+        {
+          "name": "Veshti",
+          "description": "Traditional attire for men, a simple white cotton dhoti worn with or without a shirt, often paired with a shawl (angavastram) during ceremonies and festivals."
+        },
+        {
+          "name": "Pattu Veshti",
+          "description": "Silk dhoti worn by men, often adorned with gold borders or motifs, considered auspicious and worn during weddings, religious ceremonies, and festive occasions."
+        },
+        {
+          "name": "Kurta Pyjama",
+          "description": "Comfortable and versatile attire for men, consisting of a long tunic (kurta) paired with loose-fitting trousers (pyjama), often worn for casual outings and special events."
+        }
+      ],
+      "food": [
+        {
+          "name": "Masala Dosa",
+          "description": "A popular South Indian dish made from fermented rice and lentil batter, cooked into a thin, crispy crepe and filled with a spicy potato masala, often served with chutney and sambar."
+        },
+        {
+          "name": "Idli",
+          "description": "Soft and fluffy steamed rice cakes, made from fermented rice and lentil batter, served with chutney and sambar, a staple breakfast item in Tamil Nadu."
+        },
+        {
+          "name": "Sambhar",
+          "description": "A flavorful lentil-based stew made with tamarind, vegetables, and a blend of aromatic spices, often served with rice, idli, dosa, or vada, a quintessential part of South Indian cuisine."
+        },
+        {
+          "name": "Pongal",
+          "description": "A traditional South Indian breakfast dish made with rice, lentils, and pepper, cooked into a savory porridge-like consistency, often garnished with ghee, cashews, and cumin seeds."
+        },
+        {
+          "name": "Murukku",
+          "description": "Crispy and savory deep-fried snacks made from rice flour and urad dal flour, seasoned with spices like cumin, sesame seeds, and asafoetida, a popular tea-time snack in Tamil Nadu."
+        },
+        {
+          "name": "Biryani",
+          "description": "A fragrant and flavorful rice dish made with basmati rice, meat (chicken, mutton, or beef), and a blend of aromatic spices, often garnished with fried onions, raisins, and cashews, a favorite among Tamil Nadu food lovers."
+        },
+        {
+          "name": "Filter Coffee",
+          "description": "A strong and aromatic South Indian coffee made by brewing dark roasted coffee beans with chicory, served with frothy milk and sugar, enjoyed as a morning ritual and social beverage."
+        },
+        {
+          "name": "Adai",
+          "description": "A nutritious and protein-rich South Indian pancake made from a batter of mixed lentils and rice, flavored with spices and herbs, often served with avial or jaggery, a wholesome breakfast option."
+        }
+      ],
+      "place": [
+        {
+          "name": "Meenakshi Temple",
+          "description": "A historic Hindu temple dedicated to Goddess Meenakshi and Lord Sundareswarar, known for its magnificent architecture, towering gopurams, and intricate sculptures, a major pilgrimage site in Tamil Nadu."
+        },
+        {
+          "name": "Marina Beach",
+          "description": "One of the longest urban beaches in the world, Marina Beach stretches along the Bay of Bengal in Chennai, offering scenic views, sandy shores, and recreational activities such as horse rides and beach sports."
+        },
+        {
+          "name": "Mahabalipuram",
+          "description": "A UNESCO World Heritage Site, Mahabalipuram is famous for its ancient rock-cut temples, cave sanctuaries, and intricately carved sculptures, reflecting the architectural brilliance of the Pallava dynasty."
+        },
+        {
+          "name": "Ooty",
+          "description": "A charming hill station in the Nilgiri Hills, known for its cool climate, verdant landscapes, and sprawling tea gardens, offering opportunities for trekking, boating, and sightseeing."
+        },
+        {
+          "name": "Rameswaram",
+          "description": "A sacred pilgrimage town on Pamban Island, Rameswaram is known for its historic Ramanathaswamy Temple, sacred bathing ghats, and pristine beaches, attracting devotees and tourists alike."
+        },
+        {
+          "name": "Kanyakumari",
+          "description": "The southernmost tip of mainland India, Kanyakumari is renowned for its spectacular sunrise and sunset views over the confluence of the Arabian Sea, Bay of Bengal, and Indian Ocean, as well as its Vivekananda Rock Memorial and Thiruvalluvar Statue."
+        },
+        {
+          "name": "Kodaikanal",
+          "description": "A serene hill station nestled in the Western Ghats, Kodaikanal is known for its cool climate, scenic beauty, and lush greenery, offering opportunities for boating, trekking, and nature walks."
+        },
+        {
+          "name": "Thanjavur (Tanjore)",
+          "description": "Famous for its Brihadeeswarar Temple, a UNESCO World Heritage Site, Thanjavur is known for its rich cultural heritage, classical music, dance, and traditional arts, showcasing the legacy of the Chola dynasty."
+        }
+      ]
+    }
+  ]
+}

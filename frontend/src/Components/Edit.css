@@ -1,0 +1,11 @@
+/* Sidebar.css or a new CSS file */
+.form-container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
