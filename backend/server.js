@@ -11,6 +11,7 @@ const deliveryRoutes = require('./routes/delivery');
 const dressesRoute = require('./routes/dresses');
 const foodRoute = require('./routes/Food');
 const placeRoute = require('./routes/Place');
+const contactRoute = require('./routes/contact')
 const stripe = require("stripe")("sk_test_51PHs5LSE0r6aEMOOZGznouswDjIAKoDtSFdlSO80jkbLmsk0WXrS1LyWktfHL5lLDatQN3zNh3ggU5mrVPNRJi9K00aeYxDILD")
 
 
@@ -47,6 +48,9 @@ app.use('/api', deliveryRoutes);
 app.use('/api', dressesRoute);
 app.use('/api', foodRoute);
 app.use('/api', placeRoute);
+
+// Contact us page
+app.use('/api',contactRoute)
 
 
 

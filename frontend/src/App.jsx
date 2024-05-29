@@ -21,6 +21,14 @@ import Success from "./Components/Success";
 import Cancel from "./Components/Cancel";
 import Content from "./Components/Dashbord/Content";
 import CardManager from "./Components/Dashbord/Products/CardManagment/CardManager";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import HomeAbout from "./Components/HomeAbout";
+import HomeContact from "./Components/HomeContact";
+import ContactList from "./Components/Dashbord/ContactUS/ContactList";
+import SendEmail from "./Components/Dashbord/ContactUS/SendEmailForm";
+import MultiStepForm from "./Components/CheckoutPage/MultiForm";
+import FinalPaymentConfirmation from "./Components/CheckoutPage/FinalPaymentConfirmation";
 
 function App() {
   const isLoggedIn = window.localStorage.getItem("loggedIn");
@@ -47,6 +55,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      
         <Nav />
         <Routes>
           <Route
@@ -94,6 +103,16 @@ function App() {
             }
           />
            <Route
+            path="/dashboard/admin-response"
+            element={
+              isLoggedIn === "true" && userType === "Admin" ? (
+                <ContactList />
+              ) : (
+                <Navigate to="/login" />
+              )
+            }
+          />
+           <Route
             path="/dashbord/cards-manager"
             element={
               isLoggedIn === "true" && userType === "Admin" ? (
@@ -106,6 +125,8 @@ function App() {
           <Route path="/sign-in" element={<RegisterForm />} />
           <Route path="/login" element={<LoginForm />} />
           <Route path="/state" element={<DisplayCard />} />
+          <Route path="/about" element={<HomeAbout />} />
+          <Route path="/contact" element={<HomeContact />} />
           <Route
             path="/food-dress"
             element={
@@ -131,13 +152,18 @@ function App() {
             }
           />
           <Route path="/" element={<Home />} />
-          <Route path="/deliveryform" element={<DeliveryForm />} />
+          <Route path="/delivery-form" element={<DeliveryForm />} />
           <Route path="/confirmation" element={<ConfirmationPage />} />
           <Route path="/success" element={<Success />} />
           <Route path="/cancel" element={<Cancel />} />
+          <Route path="/send-email/:email" element={<SendEmail />} />
+          <Route path="/checkout" element={<MultiStepForm />} />
+          <Route path="/final-payment" element={<FinalPaymentConfirmation />} />
         </Routes>
+      
       </BrowserRouter>
       <Footer />
+      <ToastContainer position="top-right" autoClose={2000} />
     </div>
   );
 }

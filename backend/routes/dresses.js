@@ -39,7 +39,7 @@ const insertInitialData = async () => {
       origin: "Andhra Pradesh, India",
       actual_price: "$220.99",
       discount: "50%",
-      image: "/images/roll1.jpg",
+      image: "/images/wb.jpg",
       collection: "men"
     },
     {
@@ -73,6 +73,17 @@ const insertInitialData = async () => {
       material: "Pure Silk",
       origin: "Andhra Pradesh, India",
       image: "/images/women2.avif",
+      collection: "women"
+    },
+    {
+      name: "kurta",
+      details: "Elegant long skirt, suitable for various occasions",
+      price: "$39.99",
+      actual_price: "$60.99",
+      discount: "50%",
+      material: "Pure Silk",
+      origin: "West bangal, India",
+      image: "/images/wb.jpg",
       collection: "women"
     }
   ];

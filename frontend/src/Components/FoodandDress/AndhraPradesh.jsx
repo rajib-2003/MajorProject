@@ -47,7 +47,7 @@ const AndhraPradeshCulturePage = () => {
                 <p>Ugadi, also known as Telugu New Year, is celebrated with great fervor and enthusiasm in Andhra Pradesh. It marks the beginning of the traditional lunar calendar and is observed with rituals, prayers, and special festive foods like Ugadi Pachadi. Sankranti, also known as Makar Sankranti, is a harvest festival celebrated in January. It marks the transition of the sun into the zodiac sign of Capricorn and is celebrated with kite flying, traditional foods like Pongal, and cultural performances.</p>
                 </div>
                 <div className="image">
-                <img src="/images/andra-festival.jpg" alt="Festivals" />
+                <img src="/images/andra-fastival.jpg" alt="Festivals" />
                 </div>
             </section>
         </div>

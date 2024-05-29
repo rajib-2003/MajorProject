@@ -35,6 +35,10 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
 }
+.dress-card-page h1{
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #fff, 4px 4px 0px #0000ff;
+}
 
 .dress-card:hover {
   transform: scale(1.05);

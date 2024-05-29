@@ -64,7 +64,7 @@ const CartSummaryPage = ({ foodCartItems, dressCartItems, removeFromFoodCart, re
   return (
     <Container>
       <h1 className="my-4">Cart Summary</h1>
-      <h2>Food Items</h2>
+      
       <ListGroup>
         {foodCartItems && foodCartItems.map((item, index) => ( // Check if foodCartItems is defined
           <ListGroup.Item key={index} className="d-flex align-items-center">
@@ -87,7 +87,6 @@ const CartSummaryPage = ({ foodCartItems, dressCartItems, removeFromFoodCart, re
           </ListGroup.Item>
         ))}
       </ListGroup>
-      <h2 className="mt-4">Dress Items</h2>
       <ListGroup>
         {dressCartItems && dressCartItems.map((item, index) => ( // Check if dressCartItems is defined
           <ListGroup.Item key={index} className="d-flex align-items-center">

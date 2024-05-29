@@ -1,56 +1,66 @@
-import axios from 'axios'
-import { useEffect, useState } from 'react'
-
-import './Cards.css'
+import axios from 'axios';
+import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import './Cards.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function AddCards() {
-    const [title, setTitle] = useState('')
-    const [desc, setDesc] = useState('')
-    const [image, setImage] = useState('')
+    const [title, setTitle] = useState('');
+    const [desc, setDesc] = useState('');
+    const [image, setImage] = useState('');
+    const navigate = useNavigate(); // Hook for navigation
 
     useEffect(() => {
         if (!localStorage.getItem('token')) {
             // Navigate to login or handle unauthorized access
+            navigate('/login');
         }
-    }, [])
+    }, [navigate]);
 
     const handleChange = (e) => {
-        setTitle(e.target.value)
-    }
+        setTitle(e.target.value);
+    };
 
     const handleChangeDesc = (e) => {
-        setDesc(e.target.value)
-    }
+        setDesc(e.target.value);
+    };
 
-    const handleClick = () => {
-        console.log(title, desc, image, 19)
+    const handleClick = (e) => {
+        e.preventDefault(); // Prevent form submission
 
-        const formData = new FormData()
-        formData.append('title', title)
-        formData.append('description', desc)
-        formData.append('image', image)
+        const formData = new FormData();
+        formData.append('title', title);
+        formData.append('description', desc);
+        formData.append('image', image);
 
-        axios.post('http://localhost:5000/api/services',
-            formData,
-            {
-                headers: { 'Authorization': localStorage.getItem('token') }
-            }
-        )
+        axios.post('http://localhost:5000/api/services', formData, {
+            headers: { 'Authorization': localStorage.getItem('token') }
+        })
         .then((res) => {
-            console.log(res.data)
-
+            console.log(res.data);
             if (res.data.code === 403 && res.data.message === 'Token Expired') {
-                localStorage.setItem('token', null)
+                localStorage.setItem('token', null);
+            } else {
+                toast.success('Card added successfully!', {
+                    onClose: () => {
+                        setTimeout(() => {
+                            navigate('/state');
+                        },500); // Delay navigation by 2 seconds
+                    }
+                });
             }
         })
         .catch(err => {
-            console.log(err, "err")
-        })
-    }
+            console.log(err, "err");
+            toast.error('Failed to add card');
+        });
+    };
 
     return (
         <div className="container mt-5 w-70">
+            <ToastContainer />
             <div className="row justify-content-center">
                 <div className="col-md-6">
                     <div className="admin-card p-4 shadow text-center">
@@ -66,7 +76,7 @@ function AddCards() {
                             </div>
                             <button
                                 onClick={handleClick}
-                                className='btn btn-primary '>
+                                className='btn btn-primary'>
                                 ADD STATE
                             </button>
                         </form>
@@ -74,7 +84,7 @@ function AddCards() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default AddCards;

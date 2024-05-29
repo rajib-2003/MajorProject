@@ -9,7 +9,8 @@
   .place h1 {
     margin-bottom: 20px;
     font-size: 2em;
-    color: #333;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #fff, 4px 4px 0px #0000ff;
   }
   
   /* Container for the place cards */

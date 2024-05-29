@@ -8,6 +8,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function DisplayCard(props) {
   const [data, setData] = useState([]);
   const [showRegisterModal, setShowRegisterModal] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage] = useState(8); // Number of items to display per page
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -29,12 +31,20 @@ function DisplayCard(props) {
     setShowRegisterModal(false);
   };
 
+  // Logic to get current items based on pagination
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = data.slice(indexOfFirstItem, indexOfLastItem);
+
+  // Change page
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
   return (
     <>
       <div className="container-fluid" style={{ backgroundColor: "#f8f9fa", padding: "20px" }}>
         <div className="row">
-          {data.length > 0 ? (
-            data.map((serviceItem, serviceIndex) => {
+          {currentItems.length > 0 ? (
+            currentItems.map((serviceItem, serviceIndex) => {
               return (
                 <div className="col-lg-3 col-md-4 col-sm-6 mb-4" key={serviceIndex + 1}>
                   <div className="card h-100 custom-card">
@@ -43,7 +53,7 @@ function DisplayCard(props) {
                       src={`http://localhost:5000/${serviceItem?.imageUrl}`}
                       alt={serviceItem?.title}
                       style={{
-                        height: "200px",
+                        height: "350px",
                         objectFit: "cover",
                         cursor: "pointer",
                         transition: "transform 0.1s",
@@ -82,6 +92,18 @@ function DisplayCard(props) {
         </div>
       </div>
       <RegisterModal isOpen={showRegisterModal} onClose={closeRegisterModal} />
+      {/* Pagination */}
+      <nav>
+        <ul className="pagination justify-content-center">
+          {Array.from({ length: Math.ceil(data.length / itemsPerPage) }).map((_, index) => (
+            <li key={index} className="page-item">
+              <button onClick={() => paginate(index + 1)} className="page-link">
+                {index + 1}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </>
   );
 }

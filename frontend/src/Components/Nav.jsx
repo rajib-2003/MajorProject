@@ -6,6 +6,8 @@ import { FaRegRegistered } from "react-icons/fa6";
 import { FaHome } from "react-icons/fa";
 import { FaLayerGroup } from "react-icons/fa";
 import { MdDashboard } from "react-icons/md";
+import { MdOutlineGroups } from "react-icons/md";
+import { MdContactMail } from "react-icons/md";
 const Nav = () => {
   const [userType, setUserType] = useState("");
 
@@ -51,6 +53,18 @@ const Nav = () => {
                 All State
               </Link>
             </li>
+            <li>
+              <Link to="/about" className="nav-link px-2 text-white">
+             <span>< MdOutlineGroups/> </span>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className="nav-link px-2 text-white">
+             <span><  MdContactMail/> </span>
+                Contact us
+              </Link>
+            </li>
             {userType === "Admin" && (
               <li>
                 <Link to="/dashboard" className="nav-link px-2 text-white">
@@ -58,17 +72,18 @@ const Nav = () => {
                   Dashboard
                 </Link>
               </li>
+              
             )}
           </ul>
 
-          <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          {/* <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
             <input
               type="search"
               className="form-control form-control-dark"
               placeholder="Search..."
               aria-label="Search"
             />
-          </form>
+          </form> */}
 
           <div className="text-end">
             {userType !== "Admin" && (

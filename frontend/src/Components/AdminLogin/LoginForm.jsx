@@ -107,7 +107,7 @@ export default function Login() {
             </button>
           </div>
           <p className="forgot-password text-center mt-2">
-            <a href="/sign-up">Sign Up</a>
+            <a href="/sign-in">Sign Up</a>
           </p>
         </form>
         <ToastContainer />

@@ -23,6 +23,19 @@ h2{
     
 
 }
+.logo {
+    /* Styles for the logo container */
+    padding: 20px;
+  }
+  
+  .logo img {
+    /* Styles for the logo image */
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the logo horizontally */
+    border-radius: 50%;
+  }
 .logo-icon{
     font-size:1.4rem ;
 }

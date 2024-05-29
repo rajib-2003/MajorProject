@@ -19,7 +19,7 @@ const Sidebar = () => {
     <div className='menu'>
       <div className='logo'>
         <img
-          src='file:///C:/Users/Rajib%20Mahata/Downloads/states-foods--dress-logo-zip-file/pdf/logo-color.pdf'
+          src='/images/logo.jpg'
           alt='Logo'
         />
       </div>
@@ -58,12 +58,12 @@ const Sidebar = () => {
           Delivery Status
         </Link>
         <Link
-          to='/dashboard/admin-details'
-          className={`item ${activeItem === '/dashboard/admin-details' ? 'active' : ''}`}
-          onClick={() => handleItemClick('/dashboard/admin-details')}
+          to='/dashboard/admin-response'
+          className={`item ${activeItem === '/dashboard/admin-response' ? 'active' : ''}`}
+          onClick={() => handleItemClick('/dashboard/admin-response')}
         >
           <RiAdminFill className='icon' />
-          Admin Details
+           Contact Us 
         </Link>
       </div>
     </div>

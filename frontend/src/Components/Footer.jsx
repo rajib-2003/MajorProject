@@ -7,10 +7,11 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-4 mb-3">
-            <h5>About Us</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <h5>State Dress And Food</h5>
+            <p style={{textAlign:'left'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
           </div>
-          <div className="col-md-4 mb-3">
+          <div className="col-md-4 mb-3" style={{display:'flex', gap:'40px'}}>
+            <div className="1st">
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
               <li><a href="#" className="text-white">Home</a></li>
@@ -18,6 +19,16 @@ const Footer = () => {
               <li><a href="#" className="text-white">Services</a></li>
               <li><a href="#" className="text-white">Contact</a></li>
             </ul>
+            </div>
+            <div className="2nd">
+            <h5>Shop</h5>
+            <ul className="list-unstyled">
+              <li><a href="#" className="text-white">State</a></li>
+              <li><a href="#" className="text-white">Dress</a></li>
+              <li><a href="#" className="text-white">Food</a></li>
+              <li><a href="#" className="text-white">Place</a></li>
+            </ul>
+            </div>
           </div>
           <div className="col-md-4 mb-3">
             <h5>Follow Us</h5>
